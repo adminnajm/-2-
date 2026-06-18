@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مدونة نجم | مقالات خدمات التنظيف والصيانة بالرياض</title>
+  <meta name="description" content="مقالات متخصصة في تنظيف الخزانات والمكيفات ومكافحة الحشرات ونقل العفش بالرياض من شركة نجم للخدمات المنزلية">
+  <link rel="canonical" href="https://najm-clean.online/blog/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    :root{--emerald:#0d5c4a;--emerald-dark:#083d31;--emerald-light:#14816a;--gold:#c8a84b;--gold-light:#e2c97e;--white:#ffffff;--off-white:#f8f9f6;--text-dark:#1a1a1a;--text-light:#777}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Cairo',sans-serif;direction:rtl;background:var(--white);color:var(--text-dark);overflow-x:hidden}
+    header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(8,61,49,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,168,75,0.3);padding:0 5%;height:110px;display:flex;align-items:center;justify-content:space-between}
+    .logo img{height:124px;width:auto;object-fit:contain}
+    nav{display:flex;align-items:center;gap:30px}
+    nav a{color:rgba(255,255,255,0.85);text-decoration:none;font-size:0.9rem;font-weight:600;transition:color 0.3s}
+    nav a:hover{color:var(--gold-light)}
+    .nav-cta{background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--emerald-dark)!important;padding:10px 22px;border-radius:30px;font-weight:700}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer}
+    .hamburger span{width:25px;height:2px;background:var(--white)}
+    .page-hero{background:linear-gradient(160deg,var(--emerald-dark),var(--emerald));padding:155px 5% 80px;text-align:center;color:white}
+    .page-hero h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;margin-bottom:14px}
+    .page-hero h1 span{color:var(--gold-light)}
+    .page-hero p{font-size:1rem;color:rgba(255,255,255,0.8);max-width:550px;margin:0 auto;line-height:1.8}
+    .blog-section{padding:80px 5%;max-width:900px;margin:0 auto}
+    .blog-card{display:flex;gap:24px;background:var(--white);border:1px solid rgba(0,0,0,0.07);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;transition:all 0.3s;margin-bottom:28px}
+    .blog-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(13,92,74,0.1);border-color:rgba(13,92,74,0.2)}
+    .blog-card-img{width:220px;min-height:160px;object-fit:cover;flex-shrink:0}
+    .blog-card-body{padding:24px 20px 24px 24px;display:flex;flex-direction:column;justify-content:center}
+    .blog-tag{display:inline-block;background:rgba(13,92,74,0.08);color:var(--emerald);font-size:0.72rem;font-weight:700;padding:3px 12px;border-radius:20px;margin-bottom:10px}
+    .blog-card h2{font-size:1.1rem;font-weight:700;color:var(--text-dark);margin-bottom:8px;line-height:1.5}
+    .blog-card p{font-size:0.85rem;color:var(--text-light);line-height:1.7;margin-bottom:14px}
+    .blog-meta{font-size:0.77rem;color:var(--text-light);display:flex;gap:16px}
+    .blog-read-more{color:var(--emerald);font-size:0.83rem;font-weight:700;margin-top:auto}
+    .whatsapp-float{position:fixed;bottom:28px;left:28px;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,0.4);z-index:9999;animation:pulse 2.5s infinite}
+    .whatsapp-float svg{width:30px;height:30px;fill:white}
+    .phone-float{position:fixed;bottom:98px;left:28px;width:58px;height:58px;background:#1a73e8;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(26,115,232,0.4);z-index:9999;animation:pulse-phone 2.5s infinite}
+    .phone-float svg{width:28px;height:28px;fill:white}
+    footer{background:#f1f1f1;padding:40px 5%}
+    .footer-main{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap}
+    .footer-company-name{color:#111;font-weight:700;font-size:0.95rem;margin-bottom:6px}
+    .footer-copy{color:#444;font-size:0.8rem;margin-bottom:6px}
+    .footer-links-legal a{color:#333;font-size:0.8rem;text-decoration:none}
+    .footer-nav{display:flex;flex-direction:column;gap:10px}
+    .footer-nav a{color:#111;text-decoration:none;font-size:0.9rem;font-weight:600}
+    .footer-nav a:hover{color:var(--emerald)}
+    @keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.4)}50%{box-shadow:0 4px 35px rgba(37,211,102,0.7)}}
+    @keyframes pulse-phone{0%,100%{box-shadow:0 4px 20px rgba(26,115,232,0.4)}50%{box-shadow:0 4px 35px rgba(26,115,232,0.7)}}
+    @media(max-width:768px){nav{display:none}.hamburger{display:flex}.blog-card{flex-direction:column}.blog-card-img{width:100%;min-height:180px}}
+  </style>
+</head>
+<body>
+<header>
+  <a href="../index.html" class="logo"><img src="../logo.svg" alt="شركة نجم"></a>
+  <nav>
+    <a href="../index.html">الرئيسية</a>
+    <a href="../services/index.html">الخدمات</a>
+    <a href="../faq/index.html">الأسئلة الشائعة</a>
+    <a href="../blog/index.html">المدونة</a>
+    <a href="../contact/index.html" class="nav-cta">اتصل بنا</a>
+  </nav>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</header>
+
+<div class="page-hero">
+  <h1>مدونة <span>نجم</span></h1>
+  <p>مقالات متخصصة في خدمات التنظيف والصيانة المنزلية بالرياض</p>
+</div>
+
+<section class="blog-section">
+
+  <a href="best-tank-cleaning-riyadh/index.html" class="blog-card">
+    <img src="best-tank-cleaning-riyadh/hero.jpg" alt="تنظيف وعزل خزانات المياه بالرياض" class="blog-card-img">
+    <div class="blog-card-body">
+      <span class="blog-tag">تنظيف الخزانات</span>
+      <h2>أفضل شركة تنظيف وعزل خزانات بالرياض 2025</h2>
+      <p>دليل شامل حول تنظيف وتعقيم وعزل خزانات المياه في الرياض — أخطار الإهمال وخطوات التنظيف الاحترافي وكيف تختار الشركة المناسبة.</p>
+      <div class="blog-meta">
+        <span>📅 يناير 2025</span>
+        <span>⏱️ 10 دقائق قراءة</span>
+      </div>
+      <span class="blog-read-more">اقرأ المقال ←</span>
+    </div>
+  </a>
+
+</section>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-right">
+      <a href="../index.html"><img src="../logo.svg" alt="شركة نجم" style="height:104px;width:auto;object-fit:contain;display:block;margin-bottom:12px"></a>
+      <p class="footer-company-name">شركة نجم للخدمات المنزلية</p>
+      <p class="footer-copy">حقوق النشر © 2025 جميع الحقوق محفوظة</p>
+      <p class="footer-links-legal"><a href="../terms/index.html">الشروط</a> | <a href="../privacy/index.html">الخصوصية</a> | <a href="../accessibility/index.html">إمكانية الوصول</a></p>
+    </div>
+    <div class="footer-left">
+      <nav class="footer-nav">
+        <a href="../index.html">الرئيسية</a>
+        <a href="../services/index.html">الخدمات</a>
+        <a href="../blog/index.html">المدونة</a>
+        <a href="../contact/index.html">اتصل بنا</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<a href="tel:+966558979184" class="phone-float" aria-label="اتصال"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></a>
+<a href="https://wa.me/966558979184" class="whatsapp-float" target="_blank" aria-label="واتساب"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script src="../js/main.js"></script>
+</body>
+</html>
