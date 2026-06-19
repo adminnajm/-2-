@@ -21,9 +21,9 @@
     *{margin:0;padding:0;box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{font-family:'Cairo',sans-serif;direction:rtl;background:var(--white);color:var(--text-dark);overflow-x:hidden}
-    header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(8,61,49,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,168,75,0.3);padding:0 5%;height:380px;display:flex;align-items:center;justify-content:space-between;transition:all 0.3s}
+    header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(8,61,49,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,168,75,0.3);padding:0 5%;height:90px;display:flex;align-items:center;justify-content:space-between;transition:all 0.3s}
     .logo{display:flex;align-items:center;text-decoration:none}
-    .logo img{height:372px;width:auto;object-fit:contain}
+    .logo img{height:62px;width:auto;object-fit:contain}
     nav{display:flex;align-items:center;gap:30px;margin-right:auto}
     nav a{color:rgba(255,255,255,0.85);text-decoration:none;font-size:0.9rem;font-weight:600;transition:color 0.3s;position:relative}
     nav a::after{content:'';position:absolute;bottom:-4px;right:0;width:0;height:2px;background:var(--gold);transition:width 0.3s}
@@ -36,7 +36,7 @@
     .hamburger span{width:25px;height:2px;background:var(--white);transition:0.3s}
 
     /* HERO */
-    .hero{min-height:100vh;background:linear-gradient(160deg,var(--emerald-dark) 0%,var(--emerald) 60%,#1a7a64 100%);display:flex;align-items:center;padding:420px 5% 60px;position:relative;overflow:hidden;gap:40px;justify-content:space-between}
+    .hero{min-height:100vh;background:linear-gradient(160deg,var(--emerald-dark) 0%,var(--emerald) 60%,#1a7a64 100%);display:flex;align-items:center;padding:120px 5% 60px;position:relative;overflow:hidden;gap:40px;justify-content:space-between}
     .hero::before{content:'';position:absolute;top:-50%;right:-20%;width:70vw;height:70vw;background:radial-gradient(circle,rgba(200,168,75,0.08) 0%,transparent 70%);border-radius:50%}
     .hero-content{position:relative;z-index:2;max-width:600px;flex:1}
     .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(200,168,75,0.15);border:1px solid rgba(200,168,75,0.4);color:var(--gold-light);padding:8px 18px;border-radius:30px;font-size:0.8rem;font-weight:600;letter-spacing:1px;margin-bottom:28px;animation:fadeInDown 0.8s ease}
@@ -118,7 +118,7 @@
 
     @media(max-width:768px){
       nav{display:none}
-      nav.open{display:flex;flex-direction:column;position:fixed;top:385px;right:0;left:0;background:var(--emerald-dark);padding:30px 5%;gap:20px;border-top:1px solid rgba(255,255,255,0.1)}
+      nav.open{display:flex;flex-direction:column;position:fixed;top:75px;right:0;left:0;background:var(--emerald-dark);padding:30px 5%;gap:20px;border-top:1px solid rgba(255,255,255,0.1)}
       .hamburger{display:flex}
       .hero{flex-direction:column;text-align:center;padding:100px 6% 60px;gap:30px}
       .hero-content{max-width:100%}
@@ -254,7 +254,7 @@
 <footer>
   <div class="footer-main">
     <div class="footer-right">
-      <a href="index.html"><img src="logo.svg" alt="شركة نجم" style="height:312px;width:auto;object-fit:contain;display:block;margin-bottom:12px"></a>
+      <a href="index.html"><img src="logo.svg" alt="شركة نجم" style="height:52px;width:auto;object-fit:contain;display:block;margin-bottom:12px"></a>
       <p class="footer-company-name">شركة نجم للخدمات المنزلية</p>
       <p class="footer-copy">حقوق النشر © 2025 جميع الحقوق محفوظة</p>
       <p class="footer-links-legal"><a href="terms/index.html">الشروط</a> | <a href="privacy/index.html">الخصوصية</a> | <a href="accessibility/index.html">إمكانية الوصول</a></p>
