@@ -3,54 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الأسئلة الشائعة | شركة نجم لخدمات التنظيف بالرياض</title>
-  <meta name="description" content="إجابات على أكثر الأسئلة شيوعاً حول خدمات التنظيف من شركة نجم بالرياض — الأسعار، المواعيد، الضمانات، والمواد المستخدمة.">
+  <title>الأسئلة الشائعة | شركة نجم للخدمات المنزلية بالرياض</title>
+  <meta name="description" content="إجابات على أكثر الأسئلة شيوعاً حول عزل الخزانات وتنظيف المكيفات ومكافحة الحشرات ونقل العفش من شركة نجم بالرياض">
   <link rel="canonical" href="https://najm-clean.online/faq/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ما هي مناطق تغطية شركة نجم؟","acceptedAnswer":{"@type":"Answer","text":"نغطي جميع أحياء الرياض بالكامل."}},{"@type":"Question","name":"هل المواد المستخدمة آمنة للأطفال؟","acceptedAnswer":{"@type":"Answer","text":"نعم، جميع المواد التي نستخدمها آمنة ومعتمدة ولا تشكل خطراً على الأطفال أو الحيوانات الأليفة."}},{"@type":"Question","name":"هل تقدمون ضماناً على الخدمة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، نضمن رضاك الكامل. إذا لم تكن راضياً عن النتيجة، نعود ونعيد العمل مجاناً."}}]}
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"كم مرة يجب تنظيف وعزل خزان المياه؟","acceptedAnswer":{"@type":"Answer","text":"ننصح بتنظيف وتعقيم الخزان كل 6 أشهر. أما العزل فيدوم عادةً 3-5 سنوات حسب جودة المواد. في حالة تغير لون أو رائحة الماء اتصل بنا فوراً."}},
+    {"@type":"Question","name":"هل مبيدات مكافحة الحشرات آمنة للأطفال؟","acceptedAnswer":{"@type":"Answer","text":"نعم، نستخدم مبيدات معتمدة من وزارة الصحة السعودية آمنة تماماً للأطفال والحيوانات الأليفة بعد جفافها خلال ساعتين."}},
+    {"@type":"Question","name":"هل تقدمون ضماناً على مكافحة الحشرات؟","acceptedAnswer":{"@type":"Answer","text":"نعم، ضمان موثق بعدم عودة الحشرات — نرجع مجاناً إذا عادت خلال فترة الضمان."}},
+    {"@type":"Question","name":"كم يستغرق تنظيف المكيف؟","acceptedAnswer":{"@type":"Answer","text":"تنظيف المكيف السبليت يستغرق 45-60 دقيقة. الدولابي والمركزي يحتاج وقتاً أطول حسب الحجم."}}
+  ]}
   </script>
   <style>
-    .faq-list { max-width: 750px; margin: 0 auto; }
-    .faq-item {
-      border: 1px solid rgba(0,0,0,0.08);
-      border-radius: 12px;
-      margin-bottom: 14px;
-      overflow: hidden;
-      transition: box-shadow 0.3s;
-    }
-    .faq-item:hover { box-shadow: 0 4px 20px rgba(13,92,74,0.08); }
-    .faq-question {
-      padding: 22px 26px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--text-dark);
-      background: var(--white);
-      user-select: none;
-    }
-    .faq-question .icon { color: var(--emerald); font-size: 1.4rem; transition: transform 0.3s; font-style: normal; min-width: 24px; text-align: center; }
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.35s ease, padding 0.3s;
-      background: var(--off-white);
-      color: var(--text-mid);
-      font-size: 0.92rem;
-      line-height: 1.8;
-      padding: 0 26px;
-    }
-    .faq-item.open .faq-answer { max-height: 300px; padding: 18px 26px; }
-    .faq-item.open .icon { transform: rotate(45deg); }
-    .faq-item.open .faq-question { color: var(--emerald); }
+    :root{--emerald:#0d5c4a;--emerald-dark:#083d31;--emerald-light:#14816a;--gold:#c8a84b;--gold-light:#e2c97e;--white:#ffffff;--off-white:#f8f9f6;--text-dark:#1a1a1a;--text-mid:#444;--text-light:#777}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Cairo',sans-serif;direction:rtl;background:var(--white);color:var(--text-dark);overflow-x:hidden}
+    header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(8,61,49,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,168,75,0.3);padding:0 5%;height:90px;display:flex;align-items:center;justify-content:space-between}
+    .logo img{height:62px;width:auto;object-fit:contain}
+    nav{display:flex;align-items:center;gap:30px}
+    nav a{color:rgba(255,255,255,0.85);text-decoration:none;font-size:0.9rem;font-weight:600;transition:color 0.3s}
+    nav a:hover{color:var(--gold-light)}
+    .nav-cta{background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--emerald-dark)!important;padding:10px 22px;border-radius:30px;font-weight:700}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer}
+    .hamburger span{width:25px;height:2px;background:var(--white)}
+    .page-hero{background:linear-gradient(160deg,var(--emerald-dark),var(--emerald));padding:140px 5% 80px;text-align:center;color:white}
+    .breadcrumb{font-size:0.85rem;color:rgba(255,255,255,0.6);margin-bottom:20px}
+    .breadcrumb a{color:rgba(255,255,255,0.7);text-decoration:none}
+    .page-hero h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;margin-bottom:14px}
+    .page-hero h1 span{color:var(--gold-light)}
+    .page-hero p{font-size:1rem;color:rgba(255,255,255,0.8);max-width:550px;margin:0 auto;line-height:1.8}
+    .faq-section{padding:80px 5%}
+    .faq-list{max-width:800px;margin:0 auto}
+    .faq-category{margin-bottom:50px}
+    .faq-category-title{font-size:1rem;font-weight:700;color:var(--emerald);border-right:4px solid var(--gold);padding-right:14px;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+    .faq-item{border:1px solid rgba(0,0,0,0.08);border-radius:12px;margin-bottom:12px;overflow:hidden;transition:box-shadow 0.3s}
+    .faq-item:hover{box-shadow:0 4px 20px rgba(13,92,74,0.08)}
+    .faq-question{padding:20px 24px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:0.95rem;color:var(--text-dark);background:var(--white);user-select:none;gap:16px}
+    .faq-question .icon{color:var(--emerald);font-size:1.4rem;transition:transform 0.3s;font-style:normal;min-width:24px;text-align:center;flex-shrink:0}
+    .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.35s ease,padding 0.3s;background:var(--off-white);color:var(--text-mid);font-size:0.9rem;line-height:1.85;padding:0 24px}
+    .faq-item.open .faq-answer{max-height:300px;padding:18px 24px}
+    .faq-item.open .icon{transform:rotate(45deg)}
+    .faq-item.open .faq-question{color:var(--emerald)}
+    .cta-section{background:linear-gradient(135deg,var(--emerald-dark),var(--emerald));text-align:center;padding:80px 5%;color:white}
+    .cta-section h2{font-size:1.8rem;font-weight:700;margin-bottom:12px}
+    .cta-section p{color:rgba(255,255,255,0.8);margin-bottom:32px}
+    .cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    .btn-primary{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--emerald-dark);padding:14px 30px;border-radius:50px;font-weight:700;font-size:0.95rem;text-decoration:none;transition:all 0.3s}
+    .btn-secondary{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--white);padding:14px 30px;border-radius:50px;font-weight:600;font-size:0.95rem;text-decoration:none;border:1px solid rgba(255,255,255,0.4);transition:all 0.3s}
+    .whatsapp-float{position:fixed;bottom:28px;left:28px;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,0.4);z-index:9999;animation:pulse 2.5s infinite}
+    .whatsapp-float svg{width:30px;height:30px;fill:white}
+    .phone-float{position:fixed;bottom:98px;left:28px;width:58px;height:58px;background:#1a73e8;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(26,115,232,0.4);z-index:9999;animation:pulse-phone 2.5s infinite}
+    .phone-float svg{width:28px;height:28px;fill:white}
+    footer{background:#f1f1f1;padding:40px 5%}
+    .footer-main{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap}
+    .footer-company-name{color:#111;font-weight:700;font-size:0.95rem;margin-bottom:6px}
+    .footer-copy{color:#444;font-size:0.8rem;margin-bottom:6px}
+    .footer-links-legal a{color:#333;font-size:0.8rem;text-decoration:none}
+    .footer-nav{display:flex;flex-direction:column;gap:10px}
+    .footer-nav a{color:#111;text-decoration:none;font-size:0.9rem;font-weight:600}
+    .footer-nav a:hover{color:var(--emerald)}
+    @keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.4)}50%{box-shadow:0 4px 35px rgba(37,211,102,0.7)}}
+    @keyframes pulse-phone{0%,100%{box-shadow:0 4px 20px rgba(26,115,232,0.4)}50%{box-shadow:0 4px 35px rgba(26,115,232,0.7)}}
+    @media(max-width:768px){nav{display:none}.hamburger{display:flex}}
   </style>
 </head>
 <body>
 <header>
-  <a href="../index.html" class="logo"><img src="../logo.svg" alt="شركة نجم لخدمات التنظيف" style="height:62px;width:auto;object-fit:contain;display:block;"></a>
+  <a href="../index.html" class="logo"><img src="../logo.svg" alt="شركة نجم للخدمات المنزلية" style="height:62px;width:auto;object-fit:contain;display:block;"></a>
   <nav>
     <a href="../index.html">الرئيسية</a>
     <a href="../services/index.html">الخدمات</a>
@@ -63,71 +85,115 @@
 
 <div class="page-hero">
   <p class="breadcrumb"><a href="../index.html">الرئيسية</a> ← الأسئلة الشائعة</p>
-  <h1>الأسئلة الشائعة</h1>
-  <p>كل ما تريد معرفته عن خدماتنا في مكان واحد</p>
+  <h1>الأسئلة <span>الشائعة</span></h1>
+  <p>كل ما تريد معرفته عن خدماتنا الأربع في مكان واحد</p>
 </div>
 
-<section style="padding:80px 5%">
+<section class="faq-section">
   <div class="faq-list">
-    <div class="faq-item fade-in">
-      <div class="faq-question">ما هي مناطق تغطية شركة نجم؟<i class="icon">+</i></div>
-      <div class="faq-answer">نغطي جميع أحياء الرياض بالكامل دون استثناء. نصل إليك أينما كنت داخل المدينة.</div>
+
+    <!-- خزانات -->
+    <div class="faq-category">
+      <div class="faq-category-title">🪣 عزل وتنظيف الخزانات</div>
+      <div class="faq-item">
+        <div class="faq-question">كم مرة يجب تنظيف خزان المياه؟<i class="icon">+</i></div>
+        <div class="faq-answer">ننصح بتنظيف وتعقيم الخزان كل 6 أشهر للحفاظ على نقاء المياه وصحة أسرتك. إذا لاحظت تغيراً في لون أو رائحة الماء، اتصل بنا فوراً بغض النظر عن آخر موعد تنظيف.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">ما الفرق بين تنظيف الخزان وعزله؟<i class="icon">+</i></div>
+        <div class="faq-answer">التنظيف والتعقيم يزيل الطحالب والبكتيريا والرواسب من داخل الخزان. أما العزل فهو طبقة مادة خاصة تُطبَّق على جدران الخزان من الداخل لمنع التسربات والحفاظ على جودة المياه. نقدم الخدمتين معاً أو كلاً منهما على حدة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">هل تصدرون شهادة بعد تنظيف الخزان؟<i class="icon">+</i></div>
+        <div class="faq-answer">نعم، نوفر شهادة تنظيف رسمية موثقة بعد كل عملية تنظيف وتعقيم تثبت صلاحية المياه وتاريخ التنظيف.</div>
+      </div>
     </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">هل المواد المستخدمة آمنة للأطفال والحيوانات؟<i class="icon">+</i></div>
-      <div class="faq-answer">نعم تماماً. جميع المواد التي نستخدمها آمنة ومعتمدة دولياً ولا تشكل أي خطر على الأطفال أو الحيوانات الأليفة أو البيئة.</div>
+
+    <!-- مكيفات -->
+    <div class="faq-category">
+      <div class="faq-category-title">❄️ تنظيف المكيفات</div>
+      <div class="faq-item">
+        <div class="faq-question">كم مرة يجب تنظيف المكيف في السنة؟<i class="icon">+</i></div>
+        <div class="faq-answer">ننصح بتنظيف المكيف مرة كل موسم على الأقل (قبل الصيف وقبل الشتاء). المكيف النظيف يبرد أسرع ويوفر حتى 30% من استهلاك الكهرباء.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">كم يستغرق تنظيف المكيف؟<i class="icon">+</i></div>
+        <div class="faq-answer">المكيف السبليت يستغرق 45-60 دقيقة. الدولابي والمركزي يحتاج وقتاً أطول حسب الحجم والحالة. نحدد الوقت الدقيق بعد المعاينة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">هل تنظفون جميع أنواع المكيفات؟<i class="icon">+</i></div>
+        <div class="faq-answer">نعم، نتعامل مع جميع الأنواع: سبليت، دولابي، شباك، مركزي، وكاسيت — بصرف النظر عن الماركة أو الحجم.</div>
+      </div>
     </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">هل تقدمون ضماناً على الخدمة؟<i class="icon">+</i></div>
-      <div class="faq-answer">نعم، نضمن رضاك الكامل. إذا لم تكن راضياً عن النتيجة لأي سبب، نعود ونعيد العمل مجاناً حتى تكون راضياً 100%.</div>
+
+    <!-- حشرات -->
+    <div class="faq-category">
+      <div class="faq-category-title">🪲 مكافحة الحشرات</div>
+      <div class="faq-item">
+        <div class="faq-question">هل المبيدات آمنة للأطفال والحيوانات الأليفة؟<i class="icon">+</i></div>
+        <div class="faq-answer">نعم تماماً. نستخدم مبيدات معتمدة من وزارة الصحة السعودية آمنة للأطفال والحيوانات بعد جفافها (عادةً ساعتان). نوصي بمغادرة المنزل أثناء الرش وتهويته جيداً بعد العودة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">هل تقدمون ضماناً على مكافحة الحشرات؟<i class="icon">+</i></div>
+        <div class="faq-answer">نعم، ضمان موثق بعدم عودة الحشرات. إذا عادت الحشرات خلال فترة الضمان نرجع ونعالجها مجاناً بدون أي تكاليف إضافية.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">ما الحشرات التي تتعاملون معها؟<i class="icon">+</i></div>
+        <div class="faq-answer">نتخلص من جميع الحشرات والقوارض: صراصير، نمل، بق الفراش، عث، ذباب، بعوض، فئران، عقارب، وثعابين. لدينا بروتوكول مختلف لكل نوع.</div>
+      </div>
     </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">كم تستغرق عملية التنظيف؟<i class="icon">+</i></div>
-      <div class="faq-answer">يعتمد الوقت على حجم المكان. التنظيف العادي لشقة متوسطة يستغرق 3-4 ساعات، والفلل 6-8 ساعات. نحدد الوقت الدقيق بعد معاينة المكان.</div>
+
+    <!-- نقل عفش -->
+    <div class="faq-category">
+      <div class="faq-category-title">🚛 نقل العفش</div>
+      <div class="faq-item">
+        <div class="faq-question">هل تشملون الفك والتركيب؟<i class="icon">+</i></div>
+        <div class="faq-answer">نعم، خدمتنا شاملة: فك الأثاث، تغليفه، نقله، وتركيبه في الموقع الجديد — كل ذلك بسعر واحد واضح بدون مفاجآت.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">ماذا يحدث إذا تضرر شيء أثناء النقل؟<i class="icon">+</i></div>
+        <div class="faq-answer">نتحمل المسؤولية الكاملة عن أي ضرر يحدث أثناء النقل. فريقنا مدرب ومؤمَّن وكل قطعة تُغلَّف باحترافية لمنع الخدوش والكسر.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">كيف أحصل على عرض سعر؟<i class="icon">+</i></div>
+        <div class="faq-answer">تواصل معنا عبر واتساب 0558979184 وأرسل لنا عدد الغرف أو صور الأثاث وسنرسل لك عرض سعر مجاني وشامل خلال دقائق.</div>
+      </div>
     </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">هل يجب أن أكون موجوداً أثناء التنظيف؟<i class="icon">+</i></div>
-      <div class="faq-answer">لا، ليس ضرورياً. فريقنا موثوق ومدرب على العمل باحترافية. يمكنك تسليم المفتاح واستلام منزلاً نظيفاً عند عودتك.</div>
+
+    <!-- عام -->
+    <div class="faq-category">
+      <div class="faq-category-title">ℹ️ أسئلة عامة</div>
+      <div class="faq-item">
+        <div class="faq-question">ما مناطق تغطيتكم بالرياض؟<i class="icon">+</i></div>
+        <div class="faq-answer">نغطي جميع أحياء الرياض بالكامل دون استثناء — شمال الرياض، جنوبها، شرقها وغربها. نصل إليك أينما كنت داخل المدينة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">كيف أحجز الخدمة؟<i class="icon">+</i></div>
+        <div class="faq-answer">بكل بساطة — تواصل معنا عبر واتساب على الرقم 0558979184 أو اتصل مباشرة. نرد خلال دقائق ونحدد موعداً يناسبك.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">هل الأسعار ثابتة أم تتغير؟<i class="icon">+</i></div>
+        <div class="faq-answer">نقدم أسعاراً شفافة وواضحة بناءً على نوع الخدمة وحجم المكان. نرسل لك عرض سعر مفصل قبل البدء ولا توجد تكاليف خفية.</div>
+      </div>
     </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">كيف يمكنني حجز الخدمة؟<i class="icon">+</i></div>
-      <div class="faq-answer">التواصل سهل جداً — عبر واتساب على الرقم 0558979184 أو من خلال نموذج التواصل في موقعنا. نرد خلال دقائق معدودة.</div>
-    </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">هل تقدمون عقوداً سنوية للشركات؟<i class="icon">+</i></div>
-      <div class="faq-answer">نعم، نقدم عقوداً سنوية مخصصة للشركات والمنشآت التجارية بأسعار تفضيلية وجدول زيارات منتظم. تواصل معنا للحصول على عرض خاص.</div>
-    </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">ما هي خدمات مكافحة الحشرات التي تقدمونها؟<i class="icon">+</i></div>
-      <div class="faq-answer">نتعامل مع جميع أنواع الحشرات والقوارض: الصراصير، النمل، البعوض، الفئران، العقارب، وغيرها. نستخدم مواد آمنة ومعتمدة مع ضمان موثق.</div>
-    </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">كم مرة يجب تنظيف خزان المياه؟<i class="icon">+</i></div>
-      <div class="faq-answer">ننصح بتنظيف الخزان كل 6 أشهر على الأقل للحفاظ على نقاء المياه وصحة الأسرة. في حالة ملاحظة أي تغير في لون أو رائحة الماء، اتصل بنا فوراً.</div>
-    </div>
-    <div class="faq-item fade-in">
-      <div class="faq-question">هل الأسعار ثابتة أم تتغير حسب الحالة؟<i class="icon">+</i></div>
-      <div class="faq-answer">نقدم أسعاراً شفافة بناءً على حجم المكان ونوع الخدمة. نرسل لك عرض سعر واضح قبل البدء ولا توجد تكاليف خفية.</div>
-    </div>
+
   </div>
 </section>
 
 <section class="cta-section">
-  <div style="position:relative;z-index:2">
-    <h2>لم تجد إجابتك؟</h2>
-    <p>تواصل معنا مباشرة وسنجيب على جميع استفساراتك</p><br>
-    <div class="cta-btns">
-      <a href="https://wa.me/966558979184" class="btn-primary">واتساب مباشر</a>
-      <a href="../contact/index.html" class="btn-secondary">نموذج التواصل</a>
-    </div>
+  <h2>لم تجد إجابتك؟</h2>
+  <p>تواصل معنا مباشرة وسنجيب على جميع استفساراتك</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/966558979184" class="btn-primary">واتساب مباشر</a>
+    <a href="../contact/index.html" class="btn-secondary">نموذج التواصل</a>
   </div>
 </section>
 
 <footer>
   <div class="footer-main">
     <div class="footer-right">
-      <a href="../index.html"><img src="../logo.svg" alt="شركة نجم لخدمات التنظيف" style="height:52px;width:auto;object-fit:contain;display:block;margin-bottom:12px"></a>
-      <p class="footer-company-name">شركة نجم لخدمات التنظيف</p>
+      <a href="../index.html"><img src="../logo.svg" alt="شركة نجم" style="height:52px;width:auto;object-fit:contain;display:block;margin-bottom:12px"></a>
+      <p class="footer-company-name">شركة نجم للخدمات المنزلية</p>
       <p class="footer-copy">حقوق النشر © 2025 جميع الحقوق محفوظة</p>
       <p class="footer-links-legal"><a href="../terms/index.html">الشروط</a> | <a href="../privacy/index.html">الخصوصية</a> | <a href="../accessibility/index.html">إمكانية الوصول</a></p>
     </div>
@@ -135,17 +201,14 @@
       <nav class="footer-nav">
         <a href="../index.html">الرئيسية</a>
         <a href="../services/index.html">الخدمات</a>
-        <a href="../blog/index.html">المقالات</a>
+        <a href="../blog/index.html">المدونة</a>
         <a href="../contact/index.html">اتصل بنا</a>
         <a href="../faq/index.html">الأسئلة الشائعة</a>
-        <a href="../blog/index.html" class="footer-more">المزيد ◄</a>
       </nav>
     </div>
   </div>
 </footer>
-<a href="tel:+966558979184" class="phone-float" aria-label="اتصال">
-  <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-</a>
+<a href="tel:+966558979184" class="phone-float" aria-label="اتصال"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></a>
 <a href="https://wa.me/966558979184" class="whatsapp-float" target="_blank"><svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 <script src="../js/main.js"></script>
 <script>
