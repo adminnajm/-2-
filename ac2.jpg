@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تنظيف وتعقيم المكيفات بالرياض | شركة نجم</title>
-  <meta name="description" content="تنظيف وتعقيم المكيفات بالبخار بالرياض — تحسين كفاءة التبريد وتوفير الكهرباء. اتصل 0569131252">
-  <link rel="canonical" href="https://najm-clean.online/services/ac-curtains/">
+  <title>مكافحة الحشرات والقوارض بالرياض | شركة نجم</title>
+  <meta name="description" content="مكافحة الحشرات والقوارض بالرياض بمبيدات آمنة ومعتمدة — ضمان عدم العودة. اتصل الآن 0569131252">
+  <link rel="canonical" href="https://najm-clean.online/services/pest-control/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
   <style>
-    :root{--emerald:#0d5c4a;--emerald-dark:#083d31;--emerald-light:#14816a;--gold:#c8a84b;--gold-light:#e2c97e;--white:#ffffff;--off-white:#f8f9f6;--text-dark:#1a1a1a;--text-mid:#444;--text-light:#777}
+    :root{--emerald:#0d5c4a;--emerald-dark:#083d31;--emerald-light:#14816a;--gold:#c8a84b;--gold-light:#e2c97e;--white:#ffffff;--off-white:#f8f9f6;--text-dark:#1a1a1a;--text-light:#777}
     *{margin:0;padding:0;box-sizing:border-box}
     body{font-family:'Cairo',sans-serif;direction:rtl;background:var(--white);color:var(--text-dark);overflow-x:hidden}
     header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(8,61,49,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,168,75,0.3);padding:0 5%;height:90px;display:flex;align-items:center;justify-content:space-between}
@@ -72,30 +72,30 @@
 </header>
 
 <div class="page-hero">
-  <p class="breadcrumb"><a href="../../index.html">الرئيسية</a> ← <a href="../../services/index.html">الخدمات</a> ← تنظيف المكيفات</p>
-  <h1>تنظيف وتعقيم <span>المكيفات</span> بالرياض</h1>
-  <p>الهواء النظيف يبدأ من مكيف نظيف — نغسل ونعقم جميع أنواع المكيفات بالبخار للتخلص التام من البكتيريا والعفن والأتربة</p>
+  <p class="breadcrumb"><a href="../../index.html">الرئيسية</a> ← <a href="../../services/index.html">الخدمات</a> ← مكافحة الحشرات</p>
+  <h1>مكافحة <span>الحشرات والقوارض</span> بالرياض</h1>
+  <p>نتخلص نهائياً من الصراصير والنمل والفئران وجميع الحشرات — مبيدات آمنة معتمدة وضمان موثق بعدم العودة</p>
 </div>
 
 <div class="photos-grid">
-  <img src="ac1.jpg" alt="تنظيف مكيفات بالرياض">
-  <img src="ac2.jpg" alt="تعقيم مكيفات بالبخار">
-  <img src="ac3.jpg" alt="شركة نجم لتنظيف المكيفات">
+  <img src="pest1.jpg" alt="مكافحة الحشرات بالرياض">
+  <img src="pest2.jpg" alt="رش المبيدات الآمنة">
+  <img src="pest3.jpg" alt="شركة نجم لمكافحة الحشرات">
 </div>
 
 <div class="content-section">
   <div class="features-grid">
-    <div class="feature-card"><span class="feature-icon">❄️</span><h3>تحسين التبريد</h3><p>المكيف النظيف يبرد أسرع ويستهلك كهرباء أقل</p></div>
-    <div class="feature-card"><span class="feature-icon">🦠</span><h3>إزالة البكتيريا</h3><p>نتخلص من البكتيريا والعفن المتراكمة في الفلاتر والتيربو</p></div>
-    <div class="feature-card"><span class="feature-icon">💨</span><h3>هواء نقي</h3><p>هواء خالٍ من الجراثيم والأتربة لحماية صحة أسرتك</p></div>
-    <div class="feature-card"><span class="feature-icon">🔧</span><h3>جميع الأنواع</h3><p>سبليت، دولابي، مركزي، شباك — نتعامل مع جميع الأنواع</p></div>
-    <div class="feature-card"><span class="feature-icon">⚡</span><h3>توفير الكهرباء</h3><p>المكيف المعاد تنظيفه يوفر حتى 30% من فاتورة الكهرباء</p></div>
-    <div class="feature-card"><span class="feature-icon">📅</span><h3>صيانة دورية</h3><p>ننصح بالتنظيف مرة كل موسم للحفاظ على الكفاءة القصوى</p></div>
+    <div class="feature-card"><span class="feature-icon">🪲</span><h3>جميع أنواع الحشرات</h3><p>صراصير، نمل، بق الفراش، عث، ذباب، وجميع الحشرات الزاحفة والطائرة</p></div>
+    <div class="feature-card"><span class="feature-icon">🐀</span><h3>مكافحة القوارض</h3><p>فئران وجرذان — مصائد احترافية وتسكير منافذ الدخول بشكل دائم</p></div>
+    <div class="feature-card"><span class="feature-icon">🌿</span><h3>مبيدات آمنة</h3><p>مواد معتمدة من وزارة الصحة — آمنة للأطفال والحيوانات الأليفة</p></div>
+    <div class="feature-card"><span class="feature-icon">🏠</span><h3>معالجة شاملة</h3><p>رش كامل للمنزل بما فيه المطابخ والحمامات ومجاري الصرف</p></div>
+    <div class="feature-card"><span class="feature-icon">✅</span><h3>ضمان موثق</h3><p>ضمان كتابي بعدم عودة الحشرات — نرجع مجاناً إذا عادت</p></div>
+    <div class="feature-card"><span class="feature-icon">⚡</span><h3>خدمة طارئة</h3><p>نستجيب لحالات الطوارئ خلال ساعات — متاحون 24/7</p></div>
   </div>
 
   <div class="cta-box">
-    <h2>احجز تنظيف المكيفات الآن</h2>
-    <p>فريق متخصص يصلك في اليوم نفسه — اتصل أو واتساب</p>
+    <h2>تخلص من الحشرات نهائياً</h2>
+    <p>تواصل معنا الآن وسيصلك فريقنا في أسرع وقت</p>
     <a href="https://wa.me/966569131252" class="btn-primary">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       احجز عبر واتساب
